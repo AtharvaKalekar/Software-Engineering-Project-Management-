@@ -1,16 +1,26 @@
-# React + Vite
+# 🛡️ OneLogin App — Market-Ready SSO Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+This directory contains the Vite + React source code for the **OneLogin Single Sign-On (SSO) Portal & Identity Governance Web Application**.
 
-Currently, two official plugins are available:
+## 🚀 Quickstart
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```bash
+# Install dependencies
+npm install
 
-## React Compiler
+# Run dev server
+npm run dev
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# Build production bundle
+npm run build
+```
 
-## Expanding the Oxlint configuration
+## ☁️ Vercel Deployment
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+This subdirectory includes a `vercel.json` rewrite configuration for single-page app (SPA) routing.
+
+To deploy on Vercel:
+1. Connect this repo to Vercel.
+2. Set Root Directory to `onelogin-app`.
+3. Build Command: `npm run build`
+4. Output Directory: `dist`

@@ -1,0 +1,10 @@
+{
+  "buildCommand": "cd onelogin-app && npm install && npm run build",
+  "outputDirectory": "onelogin-app/dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
