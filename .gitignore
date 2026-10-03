@@ -1,0 +1,17 @@
+# Dependencies
+node_modules
+onelogin-app/node_modules
+
+# Production Build
+dist
+onelogin-app/dist
+
+# Python Bytecode
+__pycache__/
+*.pyc
+
+# Logs & Environment
+*.log
+.DS_Store
+.env
+.env.local
